@@ -9,6 +9,7 @@ Console.WriteLine("Введите b1 k1 b2 k2 через пробел");
 string line = Console.ReadLine();
 string [] array = line.Split(' ');
 double [] arr = Array.ConvertAll(array, double.Parse);
+
 if (arr[1] == arr[3]) Console.WriteLine("Прямые параллельны");
 else
 {
