@@ -1,5 +1,4 @@
 ﻿//Напишите программу для подсчета количества цифр в числе с помощью рекурсии.
-
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 int res = 0;
